@@ -1,0 +1,59 @@
+{
+  "planHash": "39b71e3f076d81a2555a35faee37d904f234e9bb3edc2c9c45a331fbabf225cf",
+  "phase": "baseline",
+  "recordedAtUtc": "2026-08-18T15:47:26.9543004Z",
+  "retryCount": 0,
+  "resetBaseline": true,
+  "result": {
+    "setupSucceeded": true,
+    "setupDurationMs": 4418,
+    "setupFailureOutput": null,
+    "assertions": [
+      {
+        "name": "tsc-no-emit",
+        "kind": "process",
+        "verificationMethod": "exit-code",
+        "passed": true,
+        "timedOut": false,
+        "skipped": false,
+        "skippedReason": null,
+        "exitCode": 0,
+        "outputSample": "",
+        "durationMs": 6187
+      },
+      {
+        "name": "tests-pass",
+        "kind": "process",
+        "verificationMethod": "test-results",
+        "passed": true,
+        "timedOut": false,
+        "skipped": false,
+        "skippedReason": null,
+        "exitCode": 0,
+        "outputSample": "\r\n\u003E payout-system@0.0.0 test\r\n\u003E node --test ../tests/apps-script.integration.test.mjs\r\n\r\n\u2714 append-only payout lifecycle preserves Data and source submissions (558.0509ms)\r\n\u2139 tests 1\r\n\u2139 suites 0\r\n\u2139 pass 1\r\n\u2139 fail 0\r\n\u2139 cancelled 0\r\n\u2139 skipped 0\r\n\u2139 todo 0\r\n\u2139 duration_ms 944.9337\r\n",
+        "durationMs": 3381,
+        "testResults": {
+          "testFramework": "unknown",
+          "runnerDetectedFrom": "none",
+          "testsTotal": 0,
+          "testsPassed": 0,
+          "testsFailed": 0,
+          "testsSkipped": 0,
+          "parseFailed": true
+        }
+      },
+      {
+        "name": "open-authentication-screen",
+        "kind": "playwright-route",
+        "verificationMethod": "exit-code",
+        "passed": true,
+        "timedOut": false,
+        "skipped": false,
+        "skippedReason": null,
+        "exitCode": 0,
+        "outputSample": "\r\nRunning 1 test using 1 worker\r\n\r\n  ok 1 .tsupgrader\\runtime-validation\\playwright-scripts\\open-authentication-screen.spec.ts:6:1 \u203A open-authentication-screen (2.1s)\r\n\r\n  1 passed (4.2s)\r\n",
+        "durationMs": 5739
+      }
+    ]
+  }
+}
