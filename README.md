@@ -1,2 +1,0 @@
-# Auszahlen
-auszahluungssystem NGDE03
