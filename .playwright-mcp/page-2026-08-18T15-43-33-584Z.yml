@@ -1,0 +1,39 @@
+- generic [ref=e3]:
+  - complementary "Systemkennung" [ref=e4]:
+    - generic [ref=e10]:
+      - paragraph [ref=e11]: Einsatzverwaltung
+      - paragraph [ref=e12]: EVENTPAYMENTS
+    - generic [ref=e13]:
+      - paragraph [ref=e14]: 01 / AUSZAHLUNG
+      - heading "Jede Meldung bleibt nachvollziehbar." [level=1] [ref=e15]
+      - paragraph [ref=e16]: Erfasse die Besetzung, den Einsatz und den Nachweis in einem geschuetzten Register.
+    - generic "Ablauf" [ref=e17]:
+      - generic [ref=e18]:
+        - generic [ref=e19]: "01"
+        - paragraph [ref=e20]: Meldung erfassen
+      - generic [ref=e21]:
+        - generic [ref=e22]: "02"
+        - paragraph [ref=e23]: Pruefung im Register
+      - generic [ref=e24]:
+        - generic [ref=e25]: "03"
+        - paragraph [ref=e26]: Auszahlung markieren
+    - generic [ref=e27]: Verbindung wird geprueft
+  - main [ref=e30]:
+    - generic [ref=e31]:
+      - generic [ref=e32]:
+        - paragraph [ref=e33]: Geschuetzter Zugang
+        - heading "Anmeldung" [level=2] [ref=e34]
+        - paragraph [ref=e35]: Dein Konto ordnet jede Meldung dauerhaft dem richtigen Benutzer zu.
+      - region "Zugangsdaten" [ref=e36]:
+        - tablist "Zugangsart" [ref=e37]:
+          - tab "Anmelden" [ref=e38] [cursor=pointer]
+          - tab "Registrieren" [ref=e39] [cursor=pointer]
+        - generic [ref=e40]:
+          - generic [ref=e41]:
+            - generic [ref=e42]: Benutzername
+            - textbox "Benutzername" [ref=e43]:
+              - /placeholder: z. B. alpha.1
+          - generic [ref=e44]:
+            - generic [ref=e45]: Passwort
+            - textbox "Passwort" [ref=e46]
+          - button "Anmelden" [ref=e47] [cursor=pointer]
